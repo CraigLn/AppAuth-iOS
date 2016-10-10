@@ -27,7 +27,7 @@ tasks like performing an action with fresh tokens.
   #       classes of AppAuth with tokens on watchOS and tvOS, but currently the
   #       library won't help you obtain authorization grants on those platforms.
 
-  s.platforms    = { :ios => "7.0", :osx => "10.8", :watchos => "2.0", :tvos => "9.0" }
+  s.platforms    = { :ios => "7.0", :osx => "10.8", :watchos => "2.0" }
 
   s.source       = { :git => "https://github.com/openid/AppAuth-iOS.git", :tag => s.version }
 
